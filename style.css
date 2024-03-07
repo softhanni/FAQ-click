@@ -1,0 +1,43 @@
+.faq h1 {
+    margin-left: 70px;
+}
+
+.faq {
+    /* background-color: red; */
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+}
+
+.faq .title {
+    width: 350px;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .title span {
+    font-size: 25px;
+}
+
+.faq .para {
+    font-size: 20px;
+    margin: auto;
+    width: 350px;
+    display: none;
+}
+
+.faq .showpara {
+    font-size: 20px;
+    margin: auto;
+    width: 350px;
+    display: block;
+}
+
+.first {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 400px;
+}
